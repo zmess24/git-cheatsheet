@@ -4,23 +4,26 @@
 
 This is cheatsheet is for the benefit of myself and others. It will list and define the use cases of both simple and advanced git commands.
 
-#### Table of Contents
+#### Appendix
 
-* [Configuration](#CONFIGURATION) 
-* [Initializing a Repository](#initializing-a-repository)
-* [Checking Repository Status & History](#checking-repository-status--history)
-* [Adding Files to Staging](#adding-files-to-staging)
-* [Removing Staged Changes (Before Commiting)](#removing-staged-changes-before-commiting)
-* [Commiting What's in the Index](#commiting-whats-in-the-index)
-* [Removing Commited Changes](#removing-commited-changes)
-* [Merging](#merging)
-* [Github Pages](#github-pages)
+[Configuration](#CONFIGURATION) 
+[Initializing a Repository](#initializing-a-repository)
+[Checking Repository Status & History](#checking-repository-status--history)
+[Adding Files to Staging](#adding-files-to-staging)
+[Removing Staged Changes (Before Commiting)](#removing-staged-changes-before-commiting)
+[Commiting What's in the Index](#commiting-whats-in-the-index)
+[Removing Commited Changes](#removing-commited-changes)
+[Removing Commits from Branch](#removing-commits-from-branch)
+[Switching to Previous Commits](#switching-to-previous-commits)
+[Creating and Deleting Branches](#creating--deleting-branches)
+[Merging](#merging)
+[Github Pages](#github-pages)
 
 ### The Cheatsheet
 
 ---
 
-#### CONFIGURATION
+### CONFIGURATION
 
 These commands are for configuring git after it's already been setup.
 
@@ -30,13 +33,13 @@ These commands are for configuring git after it's already been setup.
 | `git config --global user.email "your_email@whatever.com"`      | Set global git email in git configuration.  |
 | `git config --global -e` | Opens your `.gitconfig` file no matter what directory you're currently in.
 
-#### INITIALIZING A REPOSITORY
+### INITIALIZING A REPOSITORY
 
 | Command        | Description   | 
 | ------------- | ------------- | 
 | `git init`      | Creates a git repository by adding a hidden `.git` file in the current directory. | 
 
-#### CHECKING REPOSITORY STATUS & HISTORY
+### CHECKING REPOSITORY STATUS & HISTORY
 
 | Command        | Description   | 
 | ------------- | ------------- | 
@@ -44,7 +47,7 @@ These commands are for configuring git after it's already been setup.
 | `git diff`      | Show detailed readout of what has changed in each file since the last commit. |
 | `git log`      | Shows the history of commits in the repository. |
 
-#### ADDING FILES TO STAGING
+### ADDING FILES TO STAGING
 
 | Command        | Description   | 
 | ------------- | ------------- | 
@@ -52,35 +55,35 @@ These commands are for configuring git after it's already been setup.
 | `git add .`      | Adds all modified files in the current directory to the index. | 
 | `git add -A` | Adds all modified files _no matter where you are in the repositroy tree_ to the index.     | 
 
-#### REMOVING STAGED CHANGES (BEFORE COMMITING)
+### REMOVING STAGED CHANGES (BEFORE COMMITING)
 
 | Command        | Description   | 
 | ------------- | ------------- | 
 | `git reset HEAD <file_name>` | Resets the staging area to whatever is in the HEAD (aka the last commit). |
 
 
-#### COMMITING WHAT'S IN THE INDEX 
+### COMMITING WHAT'S IN THE INDEX 
 
 | Command        | Description   | 
 | ------------- | ------------- | 
 | `git commit -m "message goes here"` | Commits what's staged in the index to the repository. | 
 | `git commit --amend -m "message goes here"` | Amends additional staged changes to the previous commit | 
 
-#### REMOVING COMMITED CHANGES
+### REMOVING COMMITED CHANGES
 
 | Command        | Description   | 
 | ------------- | ------------- | 
 | `git revert HEAD` | Reverts the very last commit made to the repository with the option for a message. |
 | `git revert HEAD --no-edit` | Reverts the very last commit made to the repository with no message. |
 
-#### REMOVING COMMITS FROM BRANCH
+### REMOVING COMMITS FROM BRANCH
 
 | Command        | Description   | 
 | ------------- | ------------- | 
 | `git reset --hard <commit_hash>` | Resets the current branch back to the the given commit hash. The --hard parameter indicates that the working directory should be updated to be consistent with the new branch head.|
 
 
-#### SWITCHING TO PREVIOUS COMMITS
+### SWITCHING TO PREVIOUS COMMITS
 
 | Command        | Description   | 
 | ------------- | ------------- | 
@@ -90,7 +93,7 @@ These commands are for configuring git after it's already been setup.
 | `git tag -d <tag_name>` | Removes the given tag name from it's associated commit hash. |
 | `git checkout <tag_name>` | Checkout a version of the repository by the given tag name instead of the commit hash. |
 
-#### CREATING & DELETING BRANCHES
+### CREATING & DELETING BRANCHES
 
 | Command        | Description   | 
 | ------------- | ------------- | 
@@ -99,14 +102,14 @@ These commands are for configuring git after it's already been setup.
 | `git branch` | Lists all available branches to checkout. | 
 | `git branch -d <branch_name>` | Deletes the given branch. Make sure you don't run this while in the given branch.  | 
 
-#### MERGING
+### MERGING
 
 | Command        | Description   | 
 | ------------- | ------------- | 
 | `git merge <branch_name>` | Merges changes from the specified branch in to the current branch. Running this periodically | 
 | `git rebase <branch_name>` | Merges changes and commit history fin the current branch from the specified branch. | 
 
-#### GITHUB PAGES
+### GITHUB PAGES
 
 The following commands should be run in order for a quick push to GitHub pages.
 
