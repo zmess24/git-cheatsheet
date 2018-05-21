@@ -17,6 +17,10 @@ This is cheatsheet is for the benefit of myself and others. It will list and def
 [Switching to Previous Commits](#switching-to-previous-commits)<br/>
 [Creating and Deleting Branches](#creating--deleting-branches)<br/>
 [Merging](#merging)<br/>
+[Fetching Changes](#fetching-changes)<br/>
+[Pushing a Change](#pushing-a-change)<br/>
+[Cloning Repositories](#cloning-repositories)<br/>
+[Adding a Remote Repository](#adding-a-remote-repository)<br/>
 [Github Pages](#github-pages)
 
 ### The Cheatsheet
@@ -99,7 +103,9 @@ These commands are for configuring git after it's already been setup.
 | ------------- | ------------- | 
 | `git branch <branch_name>` | Creates a new branch with the given branch name. | 
 | `git checkout -b <branch_name>` | Creates a new branch with the the given branch name and switches to it. | 
+| `git branch --track <local_branch> <origin_branch>` | Adds a local branch that tracks a remote branch. | 
 | `git branch` | Lists all available branches to checkout. | 
+| `git branch -a` | Lists all branches, including remote ones. | 
 | `git branch -d <branch_name>` | Deletes the given branch. Make sure you don't run this while in the given branch.  | 
 
 ### MERGING
@@ -108,6 +114,34 @@ These commands are for configuring git after it's already been setup.
 | ------------- | ------------- | 
 | `git merge <branch_name>` | Merges changes from the specified branch in to the current branch. Running this periodically | 
 | `git rebase <branch_name>` | Merges changes and commit history fin the current branch from the specified branch. | 
+
+### FETCHING CHANGES
+
+| Command        | Description   | 
+| ------------- | ------------- | 
+| `git fetch` | Pulls in changes from a remote repository, but NOT the commit history. In order to merge the changes, must run `git merge origin/master`. | 
+| `git pull` | Pulls and merges in changes from a remote repository. | 
+
+### PUSHING A CHANGE
+
+
+| Command        | Description   | 
+| ------------- | ------------- | 
+| `git push <repo_name> master` | Pushes the last commit in the local repository to the remote repository. | 
+
+### CLONING REPOSITORIES
+
+| Command        | Description   | 
+| ------------- | ------------- | 
+| `git clone <repo_to_clone> <new_repo_name>` | Clones (copies) a local or remote repository | 
+
+
+### ADDING A REMOTE REPOSITORY
+
+| Command        | Description   | 
+| ------------- | ------------- | 
+| `git remote add <remote_repo>` | Points a local repository at a remote one. | 
+
 
 ### GITHUB PAGES
 
@@ -120,8 +154,3 @@ The following commands should be run in order for a quick push to GitHub pages.
 | 2 | `git rebase master` | Brings GH Pages up to date with master. | 
 | 3 | `git push origin gh-pages` | Pushes commited changes to GitHub Pages. | 
 | 4 | `git checkout master` | Switches back to 	`master` | 
-
-
-
-
-# New Document
