@@ -6,22 +6,22 @@ This is cheatsheet is for the benefit of myself and others. It will list and def
 
 #### Appendix
 
-[Configuration](#configuration)<br/>
-[Initializing a Repository](#initializing-a-repository)<br/>
-[Checking Repository Status & History](#checking-repository-status--history)<br/>
+[Adding a Remote Repository](#adding-a-remote-repository)<br/>
 [Adding Files to Staging](#adding-files-to-staging)<br/>
-[Removing Staged Changes (Before Commiting)](#removing-staged-changes-before-commiting)<br/>
+[Checking Repository Status & History](#checking-repository-status--history)<br/>
+[Cloning Repositories](#cloning-repositories)<br/>
 [Commiting What's in the Index](#commiting-whats-in-the-index)<br/>
+[Configuration](#configuration)<br/>
+[Creating and Deleting Branches](#creating--deleting-branches)<br/>
+[Fetching Changes](#fetching-changes)<br/>
+[Github Pages](#github-pages)
+[Initializing a Repository](#initializing-a-repository)<br/>
+[Merging](#merging)<br/>
+[Removing Staged Changes (Before Commiting)](#removing-staged-changes-before-commiting)<br/>
 [Removing Commited Changes](#removing-commited-changes)<br/>
 [Removing Commits from Branch](#removing-commits-from-branch)<br/>
 [Switching to Previous Commits](#switching-to-previous-commits)<br/>
-[Creating and Deleting Branches](#creating--deleting-branches)<br/>
-[Merging](#merging)<br/>
-[Fetching Changes](#fetching-changes)<br/>
 [Pushing a Change](#pushing-a-change)<br/>
-[Cloning Repositories](#cloning-repositories)<br/>
-[Adding a Remote Repository](#adding-a-remote-repository)<br/>
-[Github Pages](#github-pages)
 
 ### The Cheatsheet
 
