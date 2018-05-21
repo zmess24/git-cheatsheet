@@ -13,8 +13,8 @@ This is cheatsheet is for the benefit of myself and others. It will list and def
 * [Removing Staged Changes (Before Commiting)](#removing-staged-changes-before-commiting)
 * [Commiting What's in the Index](#commiting-whats-in-the-index)
 * [Removing Commited Changes](#removing-commited-changes)
-* [Removing Commits from Branch](#removing-commits-from-branch)
-
+* [Merging](#merging)
+* [Github Pages](#github-pages)
 
 ### The Cheatsheet
 
