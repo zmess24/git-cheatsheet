@@ -6,9 +6,9 @@ This is cheatsheet is for the benefit of myself and others. It will list and def
 
 #### Table of Contents
 
-- [Configuration](#CONFIGURATION) 
-- [Initializing a Repository](#INITIALIZING-A-REPOSITORY)
-- [Checking repository status & history](#CHECKING-REPOSITORY-STATUS-&-HISTORY)
+- [Configuration](#configuration) 
+- [Initializing a Repository](#initializing-a-repository)
+- [Checking repository status & history](#checking-repository-status-&-history)
 
 ### The Cheatsheet
 
