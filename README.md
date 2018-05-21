@@ -6,7 +6,7 @@ This is cheatsheet is for the benefit of myself and others. It will list and def
 
 #### Appendix
 
-[Configuration](#CONFIGURATION)<br/>
+[Configuration](#configuration)<br/>
 [Initializing a Repository](#initializing-a-repository)<br/>
 [Checking Repository Status & History](#checking-repository-status--history)<br/>
 [Adding Files to Staging](#adding-files-to-staging)<br/>
