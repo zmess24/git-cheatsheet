@@ -1,5 +1,5 @@
 # Git Cheatsheet
 
-## Purpose
+#### Purpose
 
-This is cheatsheet is for the benefit myself and other interested parties. It list and define the use cases of both simple and advanced git commands.
+This is cheatsheet is for the benefit of myself and others. It will list and define the use cases of both simple and advanced git commands.
