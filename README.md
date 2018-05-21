@@ -6,9 +6,22 @@ This is cheatsheet is for the benefit of myself and others. It will list and def
 
 #### Table of Contents
 
-- [Configuration](#configuration) 
-- [Initializing a Repository](#initializing-a-repository)
-- [Checking repository status & history](#checking-repository-status-&-history)
+- [Git Cheatsheet](#git-cheatsheet)
+            - [Purpose](#purpose)
+            - [Table of Contents](#table-of-contents)
+        - [The Cheatsheet](#the-cheatsheet)
+            - [CONFIGURATION](#configuration)
+            - [INITIALIZING A REPOSITORY](#initializing-a-repository)
+            - [CHECKING REPOSITORY STATUS & HISTORY](#checking-repository-status-history)
+            - [ADDING FILES TO STAGING](#adding-files-to-staging)
+            - [REMOVING STAGED CHANGES (BEFORE COMMITING)](#removing-staged-changes-before-commiting)
+            - [COMMITING WHAT'S IN THE INDEX](#commiting-whats-in-the-index)
+            - [REMOVING COMMITED CHANGES](#removing-commited-changes)
+            - [REMOVING COMMITS FROM BRANCH](#removing-commits-from-branch)
+            - [SWITCHING TO PREVIOUS COMMITS](#switching-to-previous-commits)
+            - [CREATING & DELETING BRANCHES](#creating-deleting-branches)
+            - [MERGING](#merging)
+            - [GITHUB PAGES](#github-pages)
 
 ### The Cheatsheet
 
