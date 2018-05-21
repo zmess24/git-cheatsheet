@@ -6,7 +6,14 @@ This is cheatsheet is for the benefit of myself and others. It will list and def
 
 #### Table of Contents
 
-- [Configuration](#CONFIGURATION) 
+* [Configuration](#CONFIGURATION) 
+* [Initializing a Repository](#initializing-a-repository)
+* [Checking Repository Status & History](#checking-repository-status--history)
+* [Adding Files to Staging](#adding-files-to-staging)
+* [Removing Staged Changes (Before Commiting)](#removing-staged-changes-before-commiting)
+* [Commiting What's in the Index](#commiting-whats-in-the-index)
+* [Removing Commited Changes](#removing-commited-changes)
+* [Removing Commits from Branch](#removing-commits-from-branch)
 
 ### The Cheatsheet
 
