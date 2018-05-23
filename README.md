@@ -141,6 +141,7 @@ These commands are for configuring git after it's already been setup.
 | Command        | Description   | 
 | ------------- | ------------- | 
 | `git remote add <remote_repo>` | Points a local repository at a remote one. | 
+| `git remote` | Lists all remote repos connected the local repo. | 
 
 
 ### GITHUB PAGES
@@ -154,3 +155,4 @@ The following commands should be run in order for a quick push to GitHub pages.
 | 2 | `git rebase master` | Brings GH Pages up to date with master. | 
 | 3 | `git push origin gh-pages` | Pushes commited changes to GitHub Pages. | 
 | 4 | `git checkout master` | Switches back to 	`master` | 
+
