@@ -50,6 +50,8 @@ These commands are for configuring git after it's already been setup.
 | `git status`      | Lists all modified files since the last commit that havn't been staged in the index for commit, and files currently in the index ready to be commited. |
 | `git diff`      | Show detailed readout of what has changed in each file since the last commit. |
 | `git log`      | Shows the history of commits in the repository. |
+| `git cherry -v`| Shows history of commits since creation of a feature branch |
+| `git diff master ...branchName` | Shows commit diffs between master branch and feature branch|
 
 ### ADDING FILES TO STAGING
 
